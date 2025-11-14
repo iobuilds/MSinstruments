@@ -14,10 +14,10 @@ export default function Navbar() {
 
         {/* Nav links */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          <a className="hover:underline" href="#products">Products</a>
+          <a className="hover:underline" href="/products">Products</a>
           <a className="hover:underline" href="#solutions">Solutions</a>
           <a className="hover:underline" href="#support">Support</a>
-          <a className="hover:underline" href="#about">About Us</a>
+          <a className="hover:underline" href="/about">About Us</a>
         </nav>
 
         {/* Buttons */}
