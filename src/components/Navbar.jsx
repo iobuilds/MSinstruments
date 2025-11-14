@@ -14,19 +14,20 @@ export default function Navbar() {
 
         {/* Nav links */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
+          <a className="hover:underline" href="/">Home</a>
           <a className="hover:underline" href="/products">Products</a>
-          <a className="hover:underline" href="#solutions">Solutions</a>
-          <a className="hover:underline" href="#support">Support</a>
+          <a className="hover:underline" href="/solution">Solutions</a>
+          <a className="hover:underline" href="/support">Support</a>
           <a className="hover:underline" href="/about">About Us</a>
         </nav>
 
         {/* Buttons */}
         <div className="flex items-center gap-3">
           <button className="hidden md:inline-block px-4 py-2 border rounded-md">
-            Contact Us
+            <a href="/contact">Contact Us</a>
           </button>
           <button className="px-4 py-2 bg-sky-500 text-white rounded-md shadow">
-            Request a Quote
+            <a href="/quote">Request a Quote</a>
           </button>
         </div>
       </div>
