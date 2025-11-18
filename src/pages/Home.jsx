@@ -76,7 +76,7 @@ export default function HomePage() {
         <h3 className="text-xl font-bold mb-4">Featured Products</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <article className="bg-white rounded-lg overflow-hidden shadow-sm">
-                    <img src="/images/product-1.jpg" alt="Digital Calipers" className="w-full h-36 object-cover" />
+                    <img src="/images/product-1.png" alt="Digital Calipers" className="w-full h-36 object-cover" />
                     <div className="p-4">
                         <h4 className="font-semibold text-sm">Digital Calipers</h4>
                         <p className="text-xs text-gray-600 mt-2">High-precision digital calipers for accurate linear measurements in various industrial settings.</p>
