@@ -40,6 +40,7 @@ export default function ContactPage() {
               className="w-full h-80 border-0"
               allowFullScreen
               loading="lazy"
+              title="contact-location-map"
             ></iframe>
           </div>
         </section>
